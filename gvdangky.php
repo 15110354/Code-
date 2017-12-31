@@ -1,4 +1,4 @@
-	<form action="checkgv.php" method="post" name="myFormgv" onsubmit="return check()"  >
+	<form action="checkgv.php" method="post" name="myFormgv" onsubmit="return checkgv()"  >
 <div class="modal-dialog">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -34,7 +34,7 @@
 			</form>
 			
 <script>
-	function check(){
+	function checkgv(){
 		var tengiaovien=document.forms['myFormgv']['tengiaovien'].value;
 		var msgv=document.forms['myFormgv']['msgv'].value;
 		var tendangky=document.forms['myFormgv']['tendangky'].value;
