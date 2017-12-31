@@ -1,4 +1,4 @@
-	<form action="checkgv.php" method="post" name="myForm" onsubmit="return check()"  >
+	<form action="checkgv.php" method="post" name="myFormgv" onsubmit="return check()"  >
 <div class="modal-dialog">
 								<div class="modal-content">
 									<div class="modal-header">
@@ -35,11 +35,11 @@
 			
 <script>
 	function check(){
-		var tengiaovien=document.forms['myForm']['tengiaovien'].value;
-		var msgv=document.forms['myForm']['msgv'].value;
-		var tendangky=document.forms['myForm']['tendangky'].value;
-		var passgv=document.forms['myForm']['passgv'].value;
-		var passgvcf=document.forms['myForm']['passgvcf'].value;
+		var tengiaovien=document.forms['myFormgv']['tengiaovien'].value;
+		var msgv=document.forms['myFormgv']['msgv'].value;
+		var tendangky=document.forms['myFormgv']['tendangky'].value;
+		var passgv=document.forms['myFormgv']['passgv'].value;
+		var passgvcf=document.forms['myFormgv']['passgvcf'].value;
 		if(tengiaovien=='')
 		{
 			alert('Tên không được để trống');
