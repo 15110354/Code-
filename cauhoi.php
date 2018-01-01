@@ -110,5 +110,5 @@ while($row=mysql_fetch_array($querya))
 	
 }
 ?>
-	<input type="submit" name="ook" value="Gui" />
+	<input type="submit" name="ook" value="Kết thúc bài kiểm tra" />
 </form>
